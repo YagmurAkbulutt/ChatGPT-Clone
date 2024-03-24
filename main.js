@@ -7,7 +7,7 @@ const defaultText = document.querySelector(".default-text");
 
 let userText = null;
 
-const API_KEY = "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";
+const API_KEY = "";
 
 //HTML ELEMENTİ OLUŞTURMA
 const createElement = (html, className) => {
@@ -18,7 +18,7 @@ const createElement = (html, className) => {
 };
 
 const getChatResponse = async (incomingChatDiv) => {
-  const API_URL = "https://api.openai.com/v1/chat/completions";
+  const API_URL = "";
 
   const pElement = document.createElement("p");
 
